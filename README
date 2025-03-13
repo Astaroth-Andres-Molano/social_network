@@ -47,7 +47,7 @@ A. Puesta en marcha en Local (sin Docker)
 
 1. Clona el repositorio en tu máquina local.
    
-   ```
+   ```Bash
    git clone <repo_url>
    ```
 
