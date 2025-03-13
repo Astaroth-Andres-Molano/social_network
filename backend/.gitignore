@@ -1,0 +1,12 @@
+node_modules
+# Keep environment variables out of version control
+.env
+node_modules/
+npm-debug.log
+yarn-error.log
+/prisma/migrations/
+docker-compose.override.yml
+package-lock.json
+/.DS_Store
+Thumbs.db
+/data/
