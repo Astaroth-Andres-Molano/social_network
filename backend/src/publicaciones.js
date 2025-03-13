@@ -22,6 +22,7 @@ export const createPost = async (req, res) => {
     res.json(posts);
   };
   
+  
   // Agregar un like a una publicación
   export const likePost = async (req, res) => {
     const { postId } = req.body;
