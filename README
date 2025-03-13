@@ -47,7 +47,7 @@ A. Puesta en marcha en Local (sin Docker)
 
 1. Clona el repositorio en tu máquina local.
    
-   ```bash
+   ```
    git clone <repo_url>
    ```
 
@@ -55,26 +55,26 @@ A. Puesta en marcha en Local (sin Docker)
 
    - Instala las dependencias del backend:
 
-     ```bash
+     ```
      cd backend
      npm install
      ```
 
    - Crea el archivo **`.env`** con la cadena de conexión a la base de datos (solo modificar si se va a trabajar en Local sin Docker, de lo contrario dejarla como está):
 
-     ```env
+     ```
      DATABASE_URL="postgresql://postgres:12345@localhost:5432/social_network?schema=public"
      ```
 
    - Ejecuta las migraciones de Prisma para crear las tablas en la base de datos:
 
-     ```bash
+     ```
      npx prisma migrate dev --name init
      ```
 
    - Crea el cliente de Prisma:
 
-     ```bash
+     ```
      npx prisma generate
      ```
 
@@ -89,7 +89,7 @@ B. Puesta en marcha en Docker
 1. Asegúrate de tener **Docker** y **Docker Compose** instalados.
 2. En la raíz del proyecto, donde está el archivo **`docker-compose.yml`**, ejecuta:
 
-   ```bash
+   ```
    docker-compose up --build
    ```
 
@@ -99,7 +99,7 @@ B. Puesta en marcha en Docker
 
 4. Para insertar usuarios predefinidos en la base de datos, ejecuta el siguiente comando dentro del contenedor **backend**:
 
-   ```bash
+   ```
    docker-compose exec backend npm run seed
    ```
 
@@ -107,7 +107,7 @@ C. Configuración de Nginx (para producción)
 
 Si estás utilizando **Nginx** como servidor para servir el frontend, asegúrate de tener la configuración adecuada para que React Router maneje las rutas en lugar de hacer solicitudes directas al servidor. En el archivo de configuración **`nginx.conf`**, asegúrate de tener:
 
-```nginx
+```
 server {
     listen 80;
     server_name localhost;
