@@ -47,7 +47,7 @@ A. Puesta en marcha en Local (sin Docker)
 
 1. Clona el repositorio en tu máquina local.
    
-   ```
+   ```bash
    git clone <repo_url>
    ```
 
@@ -55,10 +55,10 @@ A. Puesta en marcha en Local (sin Docker)
 
    - Instala las dependencias del backend:
 
-     ```
+    ```
      cd backend
      npm install
-     ```
+    ```
 
    - Crea el archivo **`.env`** con la cadena de conexión a la base de datos (solo modificar si se va a trabajar en Local sin Docker, de lo contrario dejarla como está):
 
