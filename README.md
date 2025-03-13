@@ -18,6 +18,7 @@ Frontend:
     
 3. Estructura del Proyecto
 
+```
 project-root/
 ├── backend/
 │   ├── src/
@@ -41,6 +42,7 @@ project-root/
 │   └── public/
 ├── docker-compose.yml
 └── README.md
+```
 
 4. Instrucciones de Instalación
 A. Puesta en marcha en Local (sin Docker)
