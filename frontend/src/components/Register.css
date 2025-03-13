@@ -1,0 +1,67 @@
+.register-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  margin: 20px auto;
+  border: 2px solid #e0001b;
+}
+
+h2 {
+  color: #ffb81c;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e0001b;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button {
+  width: 20%;
+  padding: 10px;
+  background-color: #ffb81c;
+  color: rgb(8, 0, 0);
+  font-size: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #d10017;
+}
+
+p {
+  color: rgb(2, 0, 5);
+  font-size: 14px;
+}
+
+.register-link {
+  color: #008CBA;
+  text-decoration: none;
+  margin-top: 20px;
+  display: block;
+  font-size: 14px;
+}

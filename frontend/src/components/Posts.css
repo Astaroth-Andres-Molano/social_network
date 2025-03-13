@@ -1,0 +1,145 @@
+.posts-container {
+    width: 100%;
+    /*max-width: 800px;  Limita el ancho de los posts a un máximo de 800px+*/
+    margin: 20px auto; 
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;  
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  /*Sombra para darle más profundidad*/
+  }
+  
+  /* Formulario para crear un nuevo post */
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 50%;  
+    height: 80px;  
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    resize: none;
+  }
+
+    
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px 5px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 30%;  
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Contenedor para cada post */
+  .post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);  /* Sombra para cada post */
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #008CBA;
+  }
+  
+  .post-author {
+    font-weight: bold;
+  }
+  
+  .post-date {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .post-content {
+    margin-bottom: 15px;
+    font-size: 20px; 
+    color: rgb(24, 175, 37); 
+    font-weight: bold;  
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: flex-start; /* Para alinear los botones a la izquierda */
+    align-items: center;
+  }
+  
+  .like-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 5px 6px;  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;  
+    margin-left: 10px;  /* Separar los botones "like" */
+    width: 30%;
+  }
+  
+  .like-button:hover {
+    background-color: #007bb5;
+  }
+  
+  .like-count {
+    font-size: 14px;
+    color: #666;    
+  }
+  
+  /* Contenedor para mensajes de error */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para el scroll de los posts si hay muchos */
+  .posts-container {
+    max-height: 100vh; 
+    overflow-y: auto;  /* Permite el desplazamiento vertical */
+  }
+
+  /* Estilos para el botón "Ver Perfil" */
+.view-profile-button {
+    width: 20%;
+    padding: 10px;
+    background-color: #ffb81c;
+    color: rgb(8, 0, 0);
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -30px;
+  }
+  
+  .view-profile-button:hover {
+    background-color: #007bb5;
+  }
+  
+  
